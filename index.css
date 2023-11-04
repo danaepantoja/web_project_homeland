@@ -1,3 +1,4 @@
+@import url(../styles/normalize.css);
 .page {
     width: 1280px;
     height: 7473px;
@@ -33,7 +34,6 @@
 .header__subtitle{
     width: 720px;
     height: 72px;
-    flex-shrink: 0;
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -56,16 +56,22 @@
     mix-blend-mode: hue;
 
 }
+
+.intro{
+    width: 1017px;
+    height: 516px;
+    margin: 0 148px 92px 115px;
+}
 .intro__title{
     width: 1017px;
     height: 116px;
-    flex-shrink: 0;
     color: #FFF;
     font-family: Inter;
     font-size: 54px;
     font-style: normal;
     font-weight: 900;
     line-height: 58px; /* 107.407% */
+    border-bottom: 40px;
 }
 
 .intro__subtitle{
@@ -103,5 +109,53 @@
 .container{
     width: 1184px;
     height: 442px;
-    flex-shrink: 0;
+    margin: 0 48px 92px;
+}
+
+.container__item{
+    width: 284px;
+    height: 213px;
+}
+
+.places{
+
+}
+.place{
+
+}
+
+.place__title{
+
+}
+
+.place__website{
+
+}
+
+.place__artist{
+
+}
+
+.place__url-heading{
+
+}
+
+.place__image{
+
+}
+
+.action-button{
+
+}
+
+.action-button__paragraph{
+
+}
+
+.place__paragraphs{
+
+}
+
+.place__paragraph{
+
 }
