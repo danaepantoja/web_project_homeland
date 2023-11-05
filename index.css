@@ -1,67 +1,15 @@
 @import url(../styles/normalize.css);
-.page {
-    width: 1280px;
-    height: 7473px;
-    background: #2A2C2F;
-    margin: 0 auto;
-}
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/__logo.css);
+@import url(../blocks/header/__title/__title.css);
+@import url(../blocks/header/__subtitle/__subtitle.css);
+@import url(../blocks/header/__ilustration/__ilustration.css);
+@import url(../blocks/header/__rectangule/__rectangule.css);
+@import url(../blocks/intro/intro.css);
 
-.header{
-    width: 984px;
-    height: 1180px;
-    flex-shrink: 0;
-    margin: 0px 148px 92px;
-}
-.header__logo{
-    width: 270px;
-    height: 70px;
-    margin: 34px 357px 90px;
-}
 
-.header__title{
-    width: 793px;
-    height: 200px;
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 100px; 
-    margin: 0 95px 32px 96px;
-}
 
-.header__subtitle{
-    width: 720px;
-    height: 72px;
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px; /* 120% */
-    margin: 0 132px 64px;
-}
-
-.header__ilustration{
-    width: 984px;
-    height: 615px;
-
-}
-.header__rectangule{
-    width: 984px;
-    height: 615px;
-    background: #000;
-    mix-blend-mode: hue;
-
-}
-
-.intro{
-    width: 1017px;
-    height: 516px;
-    margin: 0 148px 92px 115px;
-}
 .intro__title{
     width: 1017px;
     height: 116px;
@@ -197,6 +145,11 @@
     grid-area: button;
     width: 355px;
     height: 48px;
+}
+
+.action-button_typt_traslate:hover{
+    opacity: .8;
+    transform: translate(10px, 0px);
 }
 
 .action-button__paragraph{
