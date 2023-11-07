@@ -6,3 +6,7 @@
     width: 198px;
     height: 48px;
 }
+
+.action-button_cover_typt_traslate:hover{
+    background: images/Imported Layers Copy 4.svg;
+}

@@ -1,4 +1,6 @@
 .place__website{
+    width: 456px;
+    height: 45px;
     display: flex;
     flex-direction: column;
     grid-area: website;
