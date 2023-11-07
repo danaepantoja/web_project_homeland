@@ -1,0 +1,8 @@
+.action-button_cover{
+    z-index: 2;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 198px;
+    height: 48px;
+}

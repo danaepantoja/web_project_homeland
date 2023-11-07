@@ -1,0 +1,11 @@
+.action-button{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #0278FE;
+    text-decoration: none;
+    grid-area: button;
+    width: 355px;
+    height: 48px;
+}

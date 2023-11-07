@@ -1,0 +1,10 @@
+.place{
+    width: 984px;
+    height: 756px;
+    display:grid;
+    grid-template-columns: 460px 484px;
+    grid-template-areas: 
+    "title website"
+    "image paragraphs"
+    "button paragraphs";
+}
