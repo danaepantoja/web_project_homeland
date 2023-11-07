@@ -7,52 +7,11 @@
 @import url(../blocks/header/__ilustration/__ilustration.css);
 @import url(../blocks/header/__rectangule/__rectangule.css);
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/__title.css);
+@import url(../blocks/intro/__subtitle/__subtitle.css);
+@import url(../blocks/intro/__author/__author.css);
+@import url(../blocks/intro/__text/__text.css);
 
-
-
-.intro__title{
-    width: 1017px;
-    height: 116px;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 54px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 58px; /* 107.407% */
-    border-bottom: 40px;
-}
-
-.intro__subtitle{
-    width: 722px;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 34px; /* 141.667% */
-}
-
-.intro__author{
-    width: 720px;
-    color: #FFF;
-    text-align: right;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 34px; /* 141.667% */
-
-}
-
-.intro__text{
-    width: 720px;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 163%; /* 26.08px */
-}
 
 .container{
     width: 1184px;
@@ -148,8 +107,7 @@
 }
 
 .action-button_typt_traslate:hover{
-    opacity: .8;
-    transform: translate(10px, 0px);
+    background: #0063D2;
 }
 
 .action-button__paragraph{
