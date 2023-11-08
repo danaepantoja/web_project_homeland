@@ -35,128 +35,213 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyrigth/__copyrigth.css);
 
-@media screen and (max-width : 768px) {
-
+@media screen and (max-width : 320px) {
     .page{
-        width: 768px;
-        height: 7382px;
-        background-color: aqua;
-    } 
- 
+        width: 320px;
+        height: 9626px;
+    }
+
     .header{
-        width: 768px;
-        height: 1114px;
-        margin-bottom: 55px;
+        width: 320px;
+        height: 555px;
+        margin: 0;
     }
     
-    .header__logo{
-        width: 270px;
-        height: 70px;
-        margin: 34px 249px 90px;
-
+    .header__logo{      
+        width: 200px;
+        height: 51.852px;
+        margin: 20px 60px 50.15px;
     }
 
     .header__title{
-        width: 720px;
-        margin: 90px 24px 0;
+        width: 288px;
+        height: 88px;
+        font-size: 40px;
+        line-height: 44px; 
+        margin: 0 16px 60px;
+    }
+
+    .header__subtitle{
+        width: 288px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px; /* 125% */
+        margin: 0 16px 40px;
 
     }
+
+    .header__ilustration{
+        width: 320px;
+        height: 200px;
+    }
+
+    .header__rectangule{
+        width: 320px;
+        height: 200px;          
+    }
+
     .intro{
-        width: 720px;
-        height: 607px;
+        width: 288px;
+        height: 1030px;
+        margin: 44px 16px 38px;
     }
 
     .intro__title{
-        width: 720px;
-    } 
- 
- 
-    .container{
-        width: 720px;
-        height: 1104px;
-        margin: 0 24px 88px;
-
+        width: 288px;
+        height: 175px;
+        font-size: 32px;
+        line-height: 35px; /* 109.375% */
+        margin: 0 16px 9px;
     }
-    
+
+    .intro__subtitle{
+        width: 288px;
+        height: 300px;    
+        line-height: 30px; /* 125% */
+    }
+
+    .intro__author{
+        width: 288px;
+        height: 34px;
+    }
+
+    .intro__text{
+        width: 288px;
+        height: 442px;
+    }
+
+    .container{
+        width: 288px;
+        height: 1812px;
+        margin: 0 16px;
+    }
+
     .container__item{
-        width: 352px;
-        height: 264px;
+        width: 288px;
+        height: 216px;
     }
 
     .places{
-        width: 768px;
-        align-items: center;
-        margin: 0 24px 92px;
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        margin: 62px 0 64px;
     }
 
     .place{
-        width: 720px;
-        height: 756px;
-        display:grid;
-        grid-template-columns: 355px 352px;
-        grid-template-areas: 
-        "title website"
-        "image paragraphs"
-        "button paragraphs";
-        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 320px;
+
     }
-    
+
+    .place_kiev{
+        width: 320px;
+        height: 1169px;
+
+    }
+
+    .place_gales{
+        width: 320px;
+        height: 1209px;
+    }
+
+    .place_berea{
+        width: 320px;
+        height: 1186px;
+    }
+
+    .place_muramvya{
+        width: 320px;
+        height: 1433px;
+    }
+
     .place__title{
-        width: 340px;
-        font-size: 42px;      
-        line-height: 46px; 
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
+        margin: 0;
+
     }
-    
+
     .place__website{
-        width: 295px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+        width: 288px;
         height: 67px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .place__artist{
+        width: 288px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px; /* 122.222% */
+    }
+
+    .place__url-heading{
+        width: 288px;
     }
     
     .place__image{
-        width: 340px;
-        height: 340px;
-    }
-    
-    .action-button_typt_traslate:hover{
-        background: #0063D2;
+        width: 320px;
+        height: 320px;
     }
 
     .place__paragraphs{
-        width: 352px;
-        row-gap: 14px;
-        grid-area: paragraphs;
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+        align-items: center;
+        margin: 16px;
     }
-    
+
     .place__paragraph{
-        width: 352px;
-        font-size: 16px;
+        width: 288px;
+        font-size: 16px;   
     }
     
-    .place_muramvya{
-        width: 720px;
-        height: 845px;
-       display:grid;
-       grid-template-columns: 340px 352px;
-       grid-template-areas: 
-       "title website"
-       "image paragraphs"
-       "button paragraphs";
+    .action-button{
+        width: 288px;
+        height: 48px;
+        border-radius: 4px;
+        padding: 0;
+    }
+    .action-button__paragraph{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
     }
 
     .cover{
-        width: 768px;
-        height: 746px;
-    }
-
-    .cover__title{
-       height: 76px;
+        width: 321.265px;
+        height: 254px;
+        margin: 0;
     }
 
     .cover__background{
-        opacity: .6;
-        width: 768px;
-        height: 746px;
+        width: 321.265px;
+        height: 254px;
     }
 
-    
-} 
+    .cover__title{
+        width: 288px;
+        height: 35px;
+        font-size: 32px;
+        line-height: 35px; /* 109.375% */
+    }
+
+    .cover__subtitle{    
+         font-size: 14px;
+         line-height: 16px; /* 114.286% */
+    }
+
+    .footer{
+        margin: 0;
+    }
+}
