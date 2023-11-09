@@ -1,7 +1,8 @@
+
 @media screen and (max-width : 320px) {
     .page{
         width: 320px;
-        height: 9626px;
+        height: 10270px;
     }
 
     .header{
@@ -75,7 +76,7 @@
 
     .container{
         width: 288px;
-        height: 1812px;
+        height: 1755px;
         margin: 0 16px;
     }
 
@@ -88,6 +89,7 @@
         display: flex;
         flex-direction: column;
         width: 320px;
+        height: auto;
         margin: 62px 0 64px;
     }
 
@@ -101,23 +103,33 @@
 
     .place_kiev{
         width: 320px;
-        height: 1169px;
+        height: 1200px;
+        margin-bottom: 16px;
 
     }
 
     .place_gales{
         width: 320px;
         height: 1209px;
+        margin-bottom: 36px;
     }
 
     .place_berea{
         width: 320px;
-        height: 1186px;
+        height: 1250px;
+        margin-bottom: 17px;
     }
 
     .place_muramvya{
         width: 320px;
         height: 1433px;
+        margin-bottom: 50px;
+    }
+
+    .place_mexico{
+        margin: 0;
+        width: 320px;
+        height: 1150px;
     }
 
     .place__title{
@@ -134,8 +146,8 @@
         row-gap: 8px;
         width: 288px;
         height: 67px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding: 30px 16px;
+      
     }
 
 
@@ -166,6 +178,7 @@
     .place__paragraph{
         width: 288px;
         font-size: 16px;   
+        margin: 0;
     }
     
     .action-button{
@@ -179,6 +192,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        margin: 16px 21px 15px;
     }
 
     .cover{
@@ -195,6 +209,7 @@
     .cover__title{
         width: 288px;
         height: 35px;
+        margin: 46px 16px 10px;
         font-size: 32px;
         line-height: 35px; /* 109.375% */
     }
@@ -202,9 +217,20 @@
     .cover__subtitle{    
          font-size: 14px;
          line-height: 16px; /* 114.286% */
+         margin: 0;
+    }
+
+    .action-button_cover{
+        width: 198px;
+        height: 48px;
+        margin-top: 10px;
+    }
+
+    .action-button__paragraph_cover{
+        text-align: center;
     }
 
     .footer{
-        margin: 0;
+        margin: 64px 68px 24px 61px;
     }
 }
