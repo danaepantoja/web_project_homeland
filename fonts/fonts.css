@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Permanent Marker";
+    font-family: "Inter";
     src: url(./fonts/PermanentMarker.ttf) format("truetype"),
       url(./fonts/PermanentMarker.woff) format("woff");
-  }
+}
