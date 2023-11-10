@@ -1,5 +1,5 @@
 @import url(../styles/normalize.css);
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+@import url(../fonts/font-face/@font-face.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/__logo.css);
@@ -36,3 +36,8 @@
 @import url(../blocks/footer/__copyrigth/__copyrigth.css);
 @import url(../blocks/@media/@media-760.css);
 @import url(../blocks/@media/@media-320.css);
+@font-face {
+    font-family: "Inter";
+    src:  url(./fonts/Inter-Black.woff) format("wof"),
+    url(./fonts/Inter-Black.woff2) format("woff2");
+}
