@@ -1,4 +1,4 @@
-@media screen and (max-width : 768px) {
+@media screen and (max-width:768px) {
 
     .page{
         width: 768px;
@@ -106,8 +106,8 @@
     .place__title{
         width: 340px;
         height: 46px;
-        font-size: 42px;      
-        line-height: 46px; 
+        font-size: 42px;
+        line-height: 46px;
         margin: 0;
     }
 
