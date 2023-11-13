@@ -37,6 +37,6 @@
 @import url(../blocks/@media/@media-320.css);
 @font-face {
     font-family: "Inter";
-    src:  url(./fonts/Inter-Black.woff) format("wof"),
-    url(./fonts/Inter-Black.woff2) format("woff2");
+    src:  url(./fonts/Inter-Bold.woff) format("wof"),
+    url(./fonts/Inter-Bold.woff2) format("woff2");
 }
