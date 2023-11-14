@@ -1,13 +1,13 @@
 @media screen and (max-width:320px){
     .page{
         width: 100%;
-        height: 10330px;
+        height: auto;
     }
 
     .header{
         width: 320px;
         height: 555px;
-        margin: 0;
+        margin: auto;
     }
     
     .header__logo{      
@@ -45,8 +45,10 @@
 
     .intro{
         width: 288px;
-        height: 1030px;
-        margin: 44px 16px 38px;
+        height: auto;
+        margin: auto;
+        padding-top: 44PX;
+        padding-bottom: 24px;
     }
 
     .intro__title{
@@ -78,6 +80,7 @@
         width: 288px;
         height: 1755px;
         margin: 0 16px;
+        row-gap: 10px;
     }
 
     .container__item{
@@ -90,7 +93,9 @@
         flex-direction: column;
         width: 320px;
         height: auto;
-        margin: 62px 0 64px;
+        margin: auto;
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
 
     .place{
@@ -122,7 +127,7 @@
 
     .place_muramvya{
         width: 320px;
-        height: 1493px;
+        height: auto;
         margin-top: 0;
         margin-bottom: 50px;
     }
@@ -199,7 +204,8 @@
     .cover{
         width: 321.265px;
         height: 254px;
-        margin: 0;
+        margin: auto;
+        padding-bottom: 64px;
     }
 
     .cover__background{
@@ -232,11 +238,11 @@
     }
 
     .footer{
-        margin: 64px 68px 24px 61px;
+        margin: auto;
     }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:767px){
     .container{
         width: 288px;
         height: auto;
