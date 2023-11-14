@@ -107,6 +107,10 @@
         margin: 0;
     }
 
+    .place_gales{
+        height: auto;
+    }
+
     .place_berea{
         height: auto;
         padding-top: 35px;
