@@ -109,6 +109,13 @@
 
     .place_berea{
         height: auto;
+        padding-top: 35px;
+    }
+
+    .place_mexico{
+        height: auto;
+        padding-top: 51px;
+
     }
     
     .place__title{
