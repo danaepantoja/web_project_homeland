@@ -235,3 +235,14 @@
         margin: 64px 68px 24px 61px;
     }
 }
+
+@media screen and (max-width:480px){
+    .container{
+        width: 288px;
+        height: auto;
+        margin: auto;
+        display: flex;
+    }
+
+}
+    
